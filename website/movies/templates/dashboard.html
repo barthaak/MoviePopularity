@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>Dashboard</h1>
+  <form method="POST">
+    <input type="submit" name="submit_button" class="btn btn-success" value="Start"/>
+    <input type="submit" name="submit_button" class="btn btn-danger" value="Stop"/>
+  </form>
+  <hr>
+  <table class="table table-striped">
+    <tr>
+      <th>Movie title</th>
+      <th>Hashtag</th>
+      <th>Count</th>
+    </tr>
+  </table>
+{% endblock %}
