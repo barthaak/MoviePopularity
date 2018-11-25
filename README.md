@@ -5,7 +5,7 @@ A project encorporating big data technologies in order to stream and analyze twi
 
 What software you need to run this application
 
-* [Python 3] (https://www.python.org/)
+* [Python 3](https://www.python.org/)
 * [Flask](http://flask.pocoo.org/) - Web Framework
 * [MongoDB](https://www.mongodb.com/) - Database
 * [Apache Spark](https://spark.apache.org/) - Data Processing
